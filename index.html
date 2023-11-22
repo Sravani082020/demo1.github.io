@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+        body{
+            height:100%;
+            background: darkblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding:40px;
+           width:400px;
+           height:200px;
+        }
+        h1{
+            color:transparent;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            animation:anim1 2s ease alternate-reverse infinite;
+        }
+        @keyframes anim1{
+            0%{background:linear-gradient(45deg,darkred,black,pink,gray,aliceblue);-webkit-background-clip:text;}
+            50%{background:linear-gradient(45deg,yellowgreen,yellow,cyan,red,purple);-webkit-background-clip:text;}
+            100%{background:linear-gradient(45deg,darkgreen,skyblue,orange,violet,brown);-webkit-background-clip:text;}
+        }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+           <h1>SRAVANI</h1> 
+        </div>
+    </body>
+</html>
